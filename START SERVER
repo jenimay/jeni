@@ -1,0 +1,3 @@
+sudo /etc/init.d/mysql stop
+
+sudo  /opt/lampp/lampp restart

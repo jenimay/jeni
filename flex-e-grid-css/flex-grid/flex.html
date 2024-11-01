@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: border-box;
+        }
+
+        .container {
+            display: flex;
+            width: 1000px;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+            background-color: blueviolet;
+        }
+
+        .item {
+            flex: 1;/* Distribui espaço igualmente entre os itens */
+            background-color: blue;
+            padding: 20px;
+            border: 1px solid #ccc;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+    </style>
+
+    <title>Exemplo Flex</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+    </div>
+    
+</body>
+</html>
